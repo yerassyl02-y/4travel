@@ -32,7 +32,9 @@
         </v-menu>
         <img src="@/assets/images/Homepage/calendar.png" />
       </div>
-      <v-btn class="find_btn ml-5">Найти билеты</v-btn>
+      <v-btn class="find_btn ml-5">
+        <nuxt-link to="/Tickets">Найти билеты </nuxt-link></v-btn
+      >
     </div>
   </div>
 </template>

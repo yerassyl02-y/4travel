@@ -2,13 +2,15 @@
   <v-app>
     <vue-header />
     <nuxt />
+    <vue-footer />
   </v-app>
 </template>
 
 <script>
+import VueFooter from "../components/ui/VueFooter.vue";
 import vueHeader from "../components/ui/vueHeader.vue";
 export default {
-  components: { vueHeader },
+  components: { vueHeader, VueFooter },
 };
 </script>
 
