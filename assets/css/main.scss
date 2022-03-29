@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main_container {
+    max-width: 968px;
+    width: 100%;
+
+    margin: 0 auto;
+}
+.find_btn {
+    width: 174px !important;
+    height: 60px !important;
+
+    background: #F08C34 !important;
+    border-radius: 5px; 
+
+    font-family: "Roboto-Medium";
+    font-style: normal !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF !important;
+    box-shadow: unset !important;
+}

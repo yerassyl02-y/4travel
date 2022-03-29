@@ -1,0 +1,16 @@
+.theme--light.v-text-field > .v-input__control > .v-input__slot:before {
+    border-color: unset !important;
+    border-style: none;
+}
+.theme--light.v-input {
+    width: 200px;
+    height: 60px;
+
+    background: white;
+    border: unset;
+    box-shadow: 0px 30px 30px rgba(28, 82, 113, 0.1);
+    padding-left: 16px;
+}
+.v-text-field.v-input--is-focused > .v-input__control > .v-input__slot:after {
+    display: none;
+}
